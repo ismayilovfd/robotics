@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #8290FF;
+    .navBar{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+    }
+    .navItems{
+        justify-content: flex-end;
+        
+        a{
+            font-size: 13px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+}
+
+main{
+    #production-level{
+        width: 100%;
+        background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg);
+        background-size: cover;
+        padding: 20px;
+        .products{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .production-image{
+            margin-bottom: 20px;
+            img{
+                max-width: 100%;
+            }
+        }
+        .production-text{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            h1{
+                font-size: 55px;
+                font-weight: 400;
+            }
+            button{
+                width: 150px;
+                padding: 10px;
+                border: none;
+            }
+        }
+    }
+
+    #product-show{
+      padding: 20px;
+      .show-text{
+        margin:20px 0px;
+        p{
+            margin-bottom: 20px;
+        }
+      }
+      
+      .show-items{
+        background-color: #F9F9FF;
+        cursor: pointer;
+
+        &:hover button{
+            color: white;
+            background-color: #8290FF;
+        }
+        img{
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        h4{
+            font-size: 19px;
+            font-weight: 500;
+            margin: 10px 10px;
+        }
+        p{
+            color: grey;
+            margin-bottom: 10px 10px;
+        }
+        button{
+            border: none;
+            padding: 10px 15px;
+            background-color: white;
+            font-size: 14px;
+            font-weight: 500;
+            margin: 10px 0px;
+        }
+        
+      }
+    }
+
+    #globallay-network{
+
+        .globally-text{
+            
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+        }
+
+    }
+}

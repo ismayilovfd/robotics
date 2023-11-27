@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #8290FF;
+}
+header .navBar {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+header .navItems {
+  justify-content: flex-end;
+}
+header .navItems a {
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+main #production-level {
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+main #production-level .products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #production-level .production-image {
+  margin-bottom: 20px;
+}
+main #production-level .production-image img {
+  max-width: 100%;
+}
+main #production-level .production-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+main #production-level .production-text h1 {
+  font-size: 55px;
+  font-weight: 400;
+}
+main #production-level .production-text button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+}
+main #product-show {
+  padding: 20px;
+}
+main #product-show .show-text {
+  margin: 20px 0px;
+}
+main #product-show .show-text p {
+  margin-bottom: 20px;
+}
+main #product-show .show-items {
+  background-color: #F9F9FF;
+  cursor: pointer;
+}
+main #product-show .show-items:hover button {
+  color: white;
+  background-color: #8290FF;
+}
+main #product-show .show-items img {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+main #product-show .show-items h4 {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 10px 10px;
+}
+main #product-show .show-items p {
+  color: grey;
+  margin-bottom: 10px 10px;
+}
+main #product-show .show-items button {
+  border: none;
+  padding: 10px 15px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+main #globallay-network .globally-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
